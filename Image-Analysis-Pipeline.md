@@ -9,11 +9,11 @@ We began our analysis by acquiring a substantial microscopy image dataset of mal
 </div>
 The preprocessing phase begins with image resizing to guarantee uniform pixel dimensions across all images and facilitate accurate size comparison of infected cells for subsequent analysis. Fig. 3 shows the original image after image resizing. Next, to reduce variations in the images, we applied low-pass Gaussian filtering to reduce the influence of high-frequency features.[12] The Gaussian filter significantly reduced noise, however, Fig. 4 shows the collateral reduction in edge definition. In order to preserve edges and details in our image following the Gaussian smoothing, we employed unsharp masking to increase the contrast of edges, effectively delineating clear bounds for infected cells. Layering the Gaussian filter and unsharp mask reveal a sharpened image with reduced noise as depicted in Fig. 5. Finally, by converting images to the HSV (hue, saturation, value) color space, we were able to normalize color intensity to allow for comparison of purple intensities across microscopy images taken under varying lighting conditions. This standardization enables reliable comparisons of our images by providing a consistent basis for color intensity analysis. For visualization purposes, Fig. 6 shows our colorized normal image in the RGB colorspace, while Fig. 8 shows the same image represented in the HSV colorspace.
 
-<div align="center"> 
-    <div align="center">
+
+<div align="center">
     <img width="387" alt="Screenshot 2024-07-11 at 1 50 03 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/8cb5b71e-d5a2-4f87-83df-805929e9e709">
     </br>
-    <em><strong>Figure 3:</strong> Methods Flow Chart </em>
+    <em><strong>Figure 3:</strong> Resized Original Image </em>
 </div>
 </br>
 
@@ -22,31 +22,25 @@ The preprocessing phase begins with image resizing to guarantee uniform pixel di
 <div align="center">
      <img width="387" alt="Screenshot 2024-07-11 at 1 49 35 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/f02f402b-2b1f-448c-8ec5-5e4451b75200">
     </br>
-    <em><strong>Figure 4:</strong> Methods Flow Chart</em>
+    <em><strong>Figure 4:</strong> Gaussian</em>
 </div>
 </br>
-    
-</div>
-
-
-
-
-
-
 
 <div align="center">
     <img width="387" alt="Screenshot 2024-07-11 at 1 49 51 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/6a036b41-3036-43c5-bc4d-aca4524df50e">
-    <img width="387" alt="Screenshot 2024-07-11 at 1 49 41 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/d6184fae-4bde-4f5f-ae1a-92e595c478cb">
+    </br>
+    <em><strong>Figure 5:</strong> Unsharp Mask </em>
 </div>
 </br>
 
-next two images
+
+
 <div align="center">
-    <img width="387" alt="Screenshot 2024-07-11 at 1 50 21 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/77ffd073-0559-4ce4-aced-a14b2bb546df">
-    <img width="387" alt="Screenshot 2024-07-11 at 1 50 29 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/ade23a66-30dc-4805-b729-80aa85014b69">
+    <img width="387" alt="Screenshot 2024-07-11 at 1 49 41 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/d6184fae-4bde-4f5f-ae1a-92e595c478cb">
+    </br>
+    <em><strong>Figure 6:</strong> Normalize Color Intensity (RGB)</em>
 </div>
 </br>
-
 
 
 zoom in images 
