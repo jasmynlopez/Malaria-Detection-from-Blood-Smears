@@ -7,4 +7,23 @@
 
 </br>
 
+<div align="center">
+    <img width="387" alt="Screenshot 2024-07-11 at 1 49 51 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/6a036b41-3036-43c5-bc4d-aca4524df50e">
+    <img width="387" alt="Screenshot 2024-07-11 at 1 49 41 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/d6184fae-4bde-4f5f-ae1a-92e595c478cb">
+</div>
+
+</br>
+
+<div align="center">
+    <img width="387" alt="Screenshot 2024-07-11 at 1 50 21 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/77ffd073-0559-4ce4-aced-a14b2bb546df">
+    <img width="387" alt="Screenshot 2024-07-11 at 1 50 29 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/ade23a66-30dc-4805-b729-80aa85014b69">
+</div>
+
+
+
+
+
+
+
+
 
