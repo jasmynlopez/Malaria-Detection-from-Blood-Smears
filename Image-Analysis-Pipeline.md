@@ -1,5 +1,11 @@
 # Image Analysis Pipeline
-First four images
+
+We began our analysis by acquiring a substantial microscopy image dataset of malaria infected human blood smears stained with Giemsa reagent.[11] We developed a comprehensive image analysis pipeline composed of 4 stages: preprocessing, segmentation, morphological filtering, and validation. Fig. 1 shows a block diagram broadly outlining this algorithm below.
+<div align="center">
+    <img width="778" alt="MethodsFlowChart" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/deb7c06f-7b40-4864-a293-cab64bdba2dd">
+</div>
+
+
 <div align="center">
     <img width="387" alt="Screenshot 2024-07-11 at 1 50 03 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/8cb5b71e-d5a2-4f87-83df-805929e9e709">
     <img width="387" alt="Screenshot 2024-07-11 at 1 49 35 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/f02f402b-2b1f-448c-8ec5-5e4451b75200">
