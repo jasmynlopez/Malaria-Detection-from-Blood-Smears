@@ -16,7 +16,10 @@ A number of image analysis and machine learning methods have been developed to a
 <div align="center">
     <em><strong>Figure 1:</strong> Methods Flow Chart</em>
 </div>
-Detailed methodology and major steps in this pipeline can be found in [Image-Analysis-Pipeline.md](https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/blob/main/Image-Analysis-Pipeline.md)
+<p>
+  Detailed methodology and major steps in this pipeline can be found in 
+  <a href="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/blob/main/Image-Analysis-Pipeline.md">Image-Analysis-Pipeline.md</a>
+</p>
 
 
 
