@@ -59,14 +59,20 @@ The preprocessing phase begins with image resizing to guarantee uniform pixel di
 
 
 
-
-
-
-
-
 zoom in images 
 <div align="center">
-    <img width="902" alt="Screenshot 2024-07-11 at 1 50 55 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/9920ae0b-becb-4118-9761-5a9dd02e456b">
+    <img width="402" alt="Screenshot 2024-07-11 at 3 56 37 PM" src="https://github.com/user-attachments/assets/83d316dc-a1fa-4d95-a238-d2c3703cd910">
+    </br>
+    <em><strong>Figure 9:</strong> Purple Thresholding </em>
+</div>
+</br>
+
+
+
+<div align="center">
+<img width="399" alt="Screenshot 2024-07-11 at 3 56 58 PM" src="https://github.com/user-attachments/assets/79c9436e-3b70-401c-a575-6a862ab8ef00">
+    </br>
+    <em><strong>Figure 10:</strong> Otsu * Purple Thresholding </em>
 </div>
 </br>
 
