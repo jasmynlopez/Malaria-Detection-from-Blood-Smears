@@ -9,7 +9,8 @@ We began our analysis by acquiring a substantial microscopy image dataset of mal
 </div>
 The preprocessing phase begins with image resizing to guarantee uniform pixel dimensions across all images and facilitate accurate size comparison of infected cells for subsequent analysis. Fig. 3 shows the original image after image resizing. Next, to reduce variations in the images, we applied low-pass Gaussian filtering to reduce the influence of high-frequency features.[12] The Gaussian filter significantly reduced noise, however, Fig. 4 shows the collateral reduction in edge definition. In order to preserve edges and details in our image following the Gaussian smoothing, we employed unsharp masking to increase the contrast of edges, effectively delineating clear bounds for infected cells. Layering the Gaussian filter and unsharp mask reveal a sharpened image with reduced noise as depicted in Fig. 5. Finally, by converting images to the HSV (hue, saturation, value) color space, we were able to normalize color intensity to allow for comparison of purple intensities across microscopy images taken under varying lighting conditions. This standardization enables reliable comparisons of our images by providing a consistent basis for color intensity analysis. For visualization purposes, Fig. 6 shows our colorized normal image in the RGB colorspace, while Fig. 8 shows the same image represented in the HSV colorspace.
 
-<div align="center">
+<div align="center"> 
+    <div align="center">
     <img width="387" alt="Screenshot 2024-07-11 at 1 50 03 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/8cb5b71e-d5a2-4f87-83df-805929e9e709">
     </br>
     <em><strong>Figure 3:</strong> Methods Flow Chart </em>
@@ -24,6 +25,10 @@ The preprocessing phase begins with image resizing to guarantee uniform pixel di
     <em><strong>Figure 4:</strong> Methods Flow Chart</em>
 </div>
 </br>
+    
+</div>
+
+
 
 
 
