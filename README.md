@@ -1,6 +1,6 @@
 # Malaria-Detection-from-Blood-Smears
 ## Content: 
-This repository contains an automated image processing pipeline for quantification and stage categorization of P. vivax from blood smears. We used an image set BBBC041v1, available from the Broad Bioimage Benchmark Collection [Ljosa et al., Nature Methods, 2012] with 1,364 images and ~80,000 cells. Contributors: Jasmyn Lopez and Anthony Chen
+This repository contains an automated image processing pipeline for quantification and stage categorization of P. vivax from blood smears. We used an image set BBBC041v1, available from the Broad Bioimage Benchmark Collection [Ljosa et al., Nature Methods, 2012] with 1,364 images and ~80,000 cells. Contributors: Jasmyn Lopez and Anthony Chen. 
 
 ## Introduction: 
 Despite advancements in malaria control worldwide, the disease remains an immense global health burden. In 2022, the WHO reported 247 million cases and estimated 608,000 deaths.[1] As the deadliest malaria strains (P. falciparum and P. vivax) develop resistance to antimalarial artemisinins and evasion strategies to rapid diagnostic testing, the need for an improved diagnostic solution is greater than ever.[2, 3] Traditionally, malaria diagnosis is conducted via light microscopy or rapid diagnostic testing (RDT). However, due to the large time and expertise cost of light microscopy diagnosis, RDT’s based on Histidine-rich protein II (HRP2) and pan-Plasmodium antigen lactate dehydrogenase (pLDH) are the preferred method for fast, low-cost, point-of-care diagnosis. As a result of selection pressures, P. falciparum have developed pfhrp2 deletions to evade RDT detection, resulting in false negatives and compromising surveillance efforts.[4] In order to reduce the global burden of malaria and progress towards eradication, new, accurate approaches to surveillance testing must be developed.
@@ -16,6 +16,7 @@ A number of image analysis and machine learning methods have been developed to a
 <div align="center">
     <em><strong>Figure 1:</strong> Methods Flow Chart</em>
 </div>
+Detailed methodology and major steps in this pipeline can be found in [Image-Analysis-Pipeline.md]([url](https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/blob/main/Image-Analysis-Pipeline.md))
 
 ## Results: 
 <div align="center">
