@@ -5,4 +5,6 @@
     <img width="387" alt="Screenshot 2024-07-11 at 1 49 35 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/f02f402b-2b1f-448c-8ec5-5e4451b75200">
 </div>
 
+</br>
+
 
