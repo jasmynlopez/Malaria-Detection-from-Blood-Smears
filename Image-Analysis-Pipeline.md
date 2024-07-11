@@ -42,6 +42,28 @@ The preprocessing phase begins with image resizing to guarantee uniform pixel di
 </div>
 </br>
 
+<div align="center">
+<img width="387" alt="Screenshot 2024-07-11 at 1 50 21 PM" src="https://github.com/user-attachments/assets/f9c18b10-fb01-4aca-8b60-c8fbbb4599cb">
+    </br>
+    <em><strong>Figure 7:</strong> Otsu Mask </em>
+</div>
+</br>
+
+
+
+<div align="center">
+<img width="387" alt="Screenshot 2024-07-11 at 1 50 29 PM" src="https://github.com/user-attachments/assets/1d870084-774a-4ea4-a5a4-807bd876feec">
+    </br>
+    <em><strong>Figure 8:</strong> Normalize Color Intensity (HSV)</em>
+</div>
+</br>
+
+
+
+
+
+
+
 
 zoom in images 
 <div align="center">
@@ -53,6 +75,9 @@ purple image
 <div align="center">
     <img width="491" alt="Screenshot 2024-07-11 at 1 53 22 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/6332d6b4-5b08-40fe-ae1c-41c2031fae00">
 </div>
+
+
+
 
 
 
