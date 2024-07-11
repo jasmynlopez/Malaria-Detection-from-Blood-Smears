@@ -20,7 +20,6 @@ The preprocessing phase begins with image resizing to guarantee uniform pixel di
 <div align="center">
     <img width="400" alt="Screenshot 2024-07-11 at 3 51 55 PM" src="https://github.com/user-attachments/assets/1fa21e80-6086-4225-8e31-af969a9e6bde">
     </br>
-    <em><strong>Figure 4:</strong> Gaussian </em>
 </div>
 </br>
 
