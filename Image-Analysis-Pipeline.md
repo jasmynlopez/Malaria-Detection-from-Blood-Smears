@@ -52,7 +52,6 @@ After the image preprocessing phase, we began to focus on cell segmentation. Our
 </br>
 
 
-
 <div align="center">
 <img width="387" alt="Screenshot 2024-07-11 at 1 50 29 PM" src="https://github.com/user-attachments/assets/1d870084-774a-4ea4-a5a4-807bd876feec">
     </br>
@@ -60,9 +59,10 @@ After the image preprocessing phase, we began to focus on cell segmentation. Our
 </div>
 </br>
 
+Overlaying Fig. 9, the purple thresholding mask, onto our Otsu mask allowed us to more precisely segment high purple intensity where present in cells. This ensures that residual Giemsa reagent polluting purple intensity in the image background is not falsely categorized as part of the infected cell. Comparison of the enlarged infected regions in Fig. 9 and Fig. 10 highlight the improved accuracy of this technique. Maximizing the integrity of our segmentation was crucial, since we later used the infected region size to determine stages of the malaria infection. 
+</br>
+</br>
 
-
-zoom in images 
 <div align="center">
     <img width="402" alt="Screenshot 2024-07-11 at 3 56 37 PM" src="https://github.com/user-attachments/assets/83d316dc-a1fa-4d95-a238-d2c3703cd910">
     </br>
@@ -79,11 +79,16 @@ zoom in images
 </div>
 </br>
 
-purple image 
+In order to separate our infected cell regions for quantification and subcategorization, we applied a watershed algorithm. Generally, watershed algorithms represent pixel intensities as a topographical landscape and simulate flooding to determine watershed lines, allowing the identification of distinct regions in the image. Due to the intricate shapes, occasional overlap, and sporadic noise present in our infected regions, we incorporated erosion and dilation morphological operations to mitigate the risk of over-segmentation. The erosion operation shrunk the boundaries of our infected regions to remove insignificant small structures and separate overlapping regions. Dilation operations involved expanding the boundaries of our segmented regions to group nearby pixels and counter over-segmentation.
+
 <div align="center">
     <img width="491" alt="Screenshot 2024-07-11 at 1 53 22 PM" src="https://github.com/jasmynlopez/Malaria-Detection-from-Blood-Smears/assets/141966948/6332d6b4-5b08-40fe-ae1c-41c2031fae00">
+    </br>
+    <em><strong>Figure 11:</strong> Watershed Segmentation </em>
 </div>
+</br>
 
+The final stage of our pipeline involved validating our classification algorithm. Using JSON parsing, we extracted the number of infected cells in each image and their respective developmental stages. This data allowed for detailed validation of our ability to automate recognition and categorization of infected cells into different stages. After developing our processing pipeline, we carefully tuned size parameters to accurately categorize stages of infected regions in accordance with our annotated JSON data. Finally, we created visual representations to identify the effectiveness of our image analysis.
 
 
 
