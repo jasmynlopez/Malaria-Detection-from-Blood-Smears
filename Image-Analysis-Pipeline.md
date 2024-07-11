@@ -15,8 +15,8 @@ The preprocessing phase begins with image resizing to guarantee uniform pixel di
 </div>
 </br>
 <div align="center">
-    <em><strong>Figure 3:</strong> Methods Flow Chart</em>
-    <em><strong>Figure 4:</strong> Methods Flow Chart</em>
+    <em><strong>Figure 3:</strong> Methods Flow Chart                </em>
+    <em><strong>               Figure 4:</strong> Methods Flow Chart</em>
 </div>
 </br>
 
