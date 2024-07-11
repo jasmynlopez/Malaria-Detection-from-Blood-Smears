@@ -28,7 +28,7 @@ A number of image analysis and machine learning methods have been developed to a
     <em><strong>Figure 2:</strong>  Infected Cell Counts by Category (left) and Total (right) 
 	    Blue indicates the calculated number of infected cells based on our pipeline. Red indicates the true number of infected cells based on the annotated data. Purple indicates the overlap between the two regions (successful identification of infected cells/stages).</em>
 </div>
-
+< br / >
 As can be seen in Fig. 2, our pipeline accurately identified the majority of infected cells and sub-categorized them into their respective stages. Across all images in the dataset, our algorithm’s average percent error was 0.22 cells, with 0.3, 0.22, 0.57, and 0.55 cells for ring, trophozoite, schizont, and gametocyte identification, respectively. 
 
 
